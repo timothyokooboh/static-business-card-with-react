@@ -1,0 +1,127 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: #23252c;
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.business-card {
+  max-width: 317px;
+  width: 90%;
+  margin: 30px auto;
+  background-color: #1a1b21;
+}
+
+.header > section h1,
+.header > section > h2,
+.header > section > h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.header > img {
+  margin-bottom: 21px;
+  width: 100%;
+}
+
+.header-main-content {
+  padding-inline: 35px;
+}
+
+.header > section > h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 6.19px;
+}
+
+.header > section > h2 {
+  color: #f3bf99;
+  font-size: 1.208rem;
+  margin-bottom: 8.81px;
+}
+
+.header > section > h3 {
+  color: #f5f5f5;
+  font-size: 1.024rem;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  justify-content: space-between;
+}
+
+.social-links > .btn {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.social-links > .btn > img {
+  margin-right: 7px;
+}
+
+.btn-email {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.btn-linkedin {
+  background: #5093e2;
+  border: none;
+  color: #ffffff;
+}
+
+.main-content {
+  margin-top: 33px;
+  padding-inline: 35px;
+}
+
+.main-content > section {
+  margin-bottom: 36px;
+}
+.main-content > section > h2 {
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.main-content > section > .content {
+  color: #dcdcdc;
+  font-size: 1.024rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 19px;
+}
+
+.footer > .icon {
+  padding-inline: 10px;
+  cursor: pointer;
+}
